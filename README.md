@@ -71,3 +71,7 @@ its stakeholders hold.
 
 The agency model is summarized in
 [`skills/cisely-agency-model/references/agency-model.md`](skills/cisely-agency-model/references/agency-model.md).
+
+## License
+
+Licensed under the [Apache License 2.0](LICENSE). Copyright 2026 Bhumika AI Pte Ltd.

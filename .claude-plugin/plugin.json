@@ -8,6 +8,7 @@
     "url": "https://cisely.ai"
   },
   "homepage": "https://cisely.ai",
+  "license": "Apache-2.0",
   "keywords": [
     "cisely",
     "agency-model",

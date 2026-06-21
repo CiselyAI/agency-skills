@@ -12,6 +12,7 @@
       "source": ".",
       "description": "Model your company as a living context graph in Cisely — its mission, beliefs, strategy, initiatives, and metrics, and the personas, contexts, stakeholders, goals, and expectations it serves. Guided modeling over the Cisely MCP.",
       "category": "Business & Strategy",
+      "license": "Apache-2.0",
       "keywords": [
         "cisely",
         "agency-model",
