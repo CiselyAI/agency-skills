@@ -1,0 +1,32 @@
+{
+  "name": "cisely-marketplace",
+  "description": "Official Cisely tools for Claude Code.",
+  "owner": {
+    "name": "Cisely",
+    "url": "https://cisely.ai"
+  },
+  "plugins": [
+    {
+      "name": "cisely",
+      "displayName": "Cisely — Agency Model",
+      "source": ".",
+      "description": "Model your company as a living context graph in Cisely — its mission, beliefs, strategy, initiatives, and metrics, and the personas, contexts, stakeholders, goals, and expectations it serves. Guided modeling over the Cisely MCP.",
+      "category": "Business & Strategy",
+      "keywords": [
+        "cisely",
+        "agency-model",
+        "strategy",
+        "personas",
+        "stakeholders",
+        "jobs-to-be-done",
+        "value-proposition",
+        "mcp"
+      ],
+      "author": {
+        "name": "Cisely",
+        "url": "https://cisely.ai"
+      },
+      "homepage": "https://cisely.ai"
+    }
+  ]
+}
