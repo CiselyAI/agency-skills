@@ -83,5 +83,6 @@ A record should hang off the broader strategy it elaborates:
 - **Echo the UI link** after changes: records show at `https://app.cisely.dev/concise/sub-strategies/{id}`
   and beneath their strategy on the **Purpose Board** (`https://app.cisely.dev/concise/purpose`).
 
-> Note: the Cisely MCP descriptions for the sub-strategy definition/record tools are intentionally terse
-> (they're generated generically). This skill is the authoritative guide to the workflow.
+> Note: each sub-strategy tool's own MCP description now carries the when-to-use guidance and a
+> "View in Cisely" link; this skill is the deeper guide to the end-to-end workflow (schema → publish →
+> records → nest).
