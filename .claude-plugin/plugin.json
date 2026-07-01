@@ -1,13 +1,14 @@
 {
   "name": "cisely",
   "displayName": "Cisely — Agency Model",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Model your company as a living context graph in Cisely — its mission, beliefs, strategy, initiatives, and metrics, and the personas, contexts, stakeholders, goals, and expectations it serves. Guided modeling over the Cisely MCP.",
   "author": {
     "name": "Cisely",
     "url": "https://cisely.ai"
   },
   "homepage": "https://cisely.ai",
+  "repository": "https://github.com/CiselyAI/agency-skills",
   "license": "Apache-2.0",
   "keywords": [
     "cisely",

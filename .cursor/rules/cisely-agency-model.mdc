@@ -1,0 +1,25 @@
+---
+description: Model a company in Cisely (agency model) over the Cisely MCP — personas, contexts, stakeholders, goals, expectations, mission, beliefs, strategy, initiatives, metrics, Jobs-to-be-Done, value proposition.
+globs:
+alwaysApply: false
+---
+
+When the user asks to model, build, populate, review, or refine their **company**,
+**personas**, **operating contexts**, **stakeholders**, **goals**, **expectations**,
+**strategy**, **initiatives**, **metrics**, **beliefs**, **Jobs-to-be-Done**, or
+**value proposition** in **Cisely**, follow the packaged skill:
+
+- Read [`skills/cisely-agency-model/SKILL.md`](../../skills/cisely-agency-model/SKILL.md)
+  (worldview, build order, MCP tool playbook) and its `references/`.
+- For custom strategy kinds, read
+  [`skills/cisely-sub-strategy/SKILL.md`](../../skills/cisely-sub-strategy/SKILL.md).
+
+**Hard dependency:** all authoring happens through the **`cisely` MCP server**
+(`https://app.cisely.dev/mcp`, configured in `.cursor/mcp.json`). If its tools
+aren't available, stop and ask the user to connect it in Cursor Settings → MCP —
+never fabricate business data or write it to files instead.
+
+Operate with high rigor: every node moves `Draft → Revise → Activate`; a declined
+persona/expectation is a deliberate decision; refer to MCP tools by name
+(`CreatePersona`, `SituateStakeholder`, …). Steer toward the payoff — a strategy
+that roots in the same beliefs the stakeholders hold.

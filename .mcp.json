@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "cisely": {
+      "command": "npx",
+      "args": ["-y", "mcp-remote", "https://app.cisely.dev/mcp"]
+    }
+  }
+}

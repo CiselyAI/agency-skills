@@ -1,0 +1,15 @@
+# Aider configuration for the Cisely Agency-Model package.
+#
+# Aider has no plugin / skill / MCP system — it loads Markdown files as read-only
+# context. These `read` entries teach Aider the Cisely modeling discipline so it
+# can help you *reason about* and draft your agency model.
+#
+# IMPORTANT: Aider cannot drive the Cisely MCP, so it cannot author into your
+# Cisely workspace directly. Use Aider to think through the model, then apply the
+# result via a harness that speaks MCP (Claude Code, Codex, Cursor, OpenCode) or
+# in the web app at https://app.cisely.dev. See docs/install.md.
+read:
+  - AGENTS.md
+  - skills/cisely-agency-model/SKILL.md
+  - skills/cisely-agency-model/references/agency-model.md
+  - skills/cisely-sub-strategy/SKILL.md
