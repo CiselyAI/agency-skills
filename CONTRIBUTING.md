@@ -20,15 +20,26 @@ a typo in a skill to sharpening the modeling playbook.
 ## What's in here
 
 ```
-.claude-plugin/        manifest (plugin.json) + marketplace entry (marketplace.json)
-commands/              slash commands → /cisely:model, /cisely:review, /cisely:canvas
-skills/
+skills/                the portable payload (Markdown + YAML frontmatter)
   cisely-agency-model/ the worldview, modeling discipline, tool playbook (+ references/)
   cisely-sub-strategy/ authoring custom strategy kinds (runtime business objects)
+commands/              Claude Code slash commands → /cisely:model, /cisely:review, /cisely:canvas
+AGENTS.md              cross-harness entrypoint (Codex, Cursor, OpenCode, generic AGENTS.md tools)
+.mcp.json              portable MCP manifest (cisely server via the mcp-remote stdio bridge)
+
+.claude-plugin/        Claude Code:  plugin.json + marketplace.json (self-hosted marketplace)
+.codex-plugin/         OpenAI Codex: plugin.json (skills + mcpServers + interface)
+.agents/plugins/       Google Antigravity: marketplace.json
+.cursor/               Cursor: rules/*.mdc + mcp.json
+.opencode/             OpenCode: INSTALL.md
+.aider.conf.yml        Aider: read-only skill context (no MCP — draft only)
+docs/                  install.md (per-harness install matrix)
 ```
 
 Skills and commands are **Markdown with YAML frontmatter** — no build step. The deeper material lives
-in `skills/cisely-agency-model/references/*.md`, loaded on demand.
+in `skills/cisely-agency-model/references/*.md`, loaded on demand. The **portable payload** is
+`skills/`; every per-harness directory is a thin adapter that points back at it — keep the skills
+harness-agnostic and let the adapters carry tool-specific wiring.
 
 ## Develop & test locally
 

@@ -1,0 +1,20 @@
+{
+  "name": "cisely-marketplace",
+  "interface": {
+    "displayName": "Cisely"
+  },
+  "plugins": [
+    {
+      "name": "cisely",
+      "source": {
+        "source": "url",
+        "url": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Business & Strategy"
+    }
+  ]
+}

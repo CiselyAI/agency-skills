@@ -1,0 +1,46 @@
+{
+  "name": "cisely",
+  "version": "0.2.0",
+  "description": "Model your company as a living context graph in Cisely — mission, beliefs, strategy, initiatives, and metrics, and the personas, contexts, stakeholders, goals, and expectations it serves. Guided modeling over the Cisely MCP.",
+  "author": {
+    "name": "Cisely",
+    "url": "https://cisely.ai"
+  },
+  "homepage": "https://cisely.ai",
+  "repository": "https://github.com/CiselyAI/agency-skills",
+  "license": "Apache-2.0",
+  "keywords": [
+    "cisely",
+    "agency-model",
+    "strategy",
+    "personas",
+    "stakeholders",
+    "jobs-to-be-done",
+    "value-proposition",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "mcpServers": {
+    "cisely": {
+      "command": "npx",
+      "args": ["-y", "mcp-remote", "https://app.cisely.dev/mcp"]
+    }
+  },
+  "interface": {
+    "displayName": "Cisely — Agency Model",
+    "shortDescription": "Model your company as a living context graph over the Cisely MCP.",
+    "longDescription": "Cisely teaches your agent to model a company's context graph — the response side (mission, beliefs, strategy, initiatives, metrics) and the demand side (personas, operating contexts, stakeholders, goals, expectations) — by driving the Cisely MCP with the right discipline and order. Requires a Cisely workspace (app.cisely.dev) and the connected cisely MCP server.",
+    "developerName": "Cisely",
+    "category": "Business & Strategy",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Let's model my company in Cisely.",
+      "Map our personas and the goals they're trying to reach."
+    ],
+    "websiteURL": "https://cisely.ai"
+  }
+}
